@@ -1,5 +1,9 @@
 # Developing a Solution for Streamlining Mobile Device Repair Services
 
+https://github.com/user-attachments/assets/30aaa0bc-e972-49c7-a7c2-128931c00ecc
+
+https://github.com/user-attachments/assets/d3bdce86-2566-4bd8-90e3-22a305dbc5fe
+
 ## Phase 1: Initial Design and Planning
 
 * Gathering requirements. ✅
