@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_page_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Placeholder": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

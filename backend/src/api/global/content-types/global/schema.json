@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "web-components.hero"
+    },
+    "Navbar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "web-components.navbar"
+    }
+  }
+}

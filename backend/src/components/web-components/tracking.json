@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_web_components_trackings",
+  "info": {
+    "displayName": "Tracking",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "primaryButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "web-components.button"
+    },
+    "orderCode": {
+      "type": "password"
+    }
+  }
+}

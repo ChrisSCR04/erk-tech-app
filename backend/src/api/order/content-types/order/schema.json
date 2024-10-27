@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderCode": {
+      "type": "customField",
+      "required": true,
+      "options": {
+        "disable-auto-fill": false,
+        "uuid-format": "^\\d{8}-\\d{3}$",
+        "disable-regenerate": false
+      },
+      "customField": "plugin::strapi-advanced-uuid.uuid"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Recieved",
+        "In progress",
+        "Completed",
+        "Delivered"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "startDate": {
+      "type": "datetime"
+    },
+    "estimatedDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "datetime"
+    },
+    "deviceModel": {
+      "type": "string"
+    },
+    "pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "customer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::customer.customer"
+    },
+    "imei": {
+      "type": "string",
+      "regex": "^\\d{15}$"
+    }
+  }
+}

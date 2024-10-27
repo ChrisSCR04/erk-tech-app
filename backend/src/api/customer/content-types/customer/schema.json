@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "Customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "contactNumber": {
+      "type": "customField",
+      "options": {
+        "country": "pa"
+      },
+      "required": false,
+      "customField": "plugin::strapi-phone-validator.phone"
+    },
+    "customerId": {
+      "type": "customField",
+      "required": true,
+      "options": {
+        "uuid-format": "^[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}$"
+      },
+      "customField": "plugin::strapi-advanced-uuid.uuid"
+    }
+  }
+}

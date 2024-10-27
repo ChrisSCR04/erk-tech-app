@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_web_components_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "primaryButton": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "web-components.button"
+    },
+    "secondaryButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "web-components.button"
+    }
+  }
+}
