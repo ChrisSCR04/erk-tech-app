@@ -25,6 +25,6 @@ https://github.com/user-attachments/assets/d3bdce86-2566-4bd8-90e3-22a305dbc5fe
 * Assembling the website's pages, combining components and styling them with Tailwind CSS. ✅
 * Achieving a functional prototype of the website. ✅
 
-## Phase 4: Custom Technician Dashboard app (soon)
+## Phase 4: Customizing the Technician Dashboard (soon)
 
 ## Phase 5: Testing and Deployment (soon)
